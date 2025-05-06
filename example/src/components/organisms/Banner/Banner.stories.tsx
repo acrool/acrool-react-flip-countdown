@@ -1,6 +1,5 @@
 import type {Meta, StoryObj} from '@storybook/react';
 
-import React from 'react';
 import Banner from './Banner';
 
 const meta = {
@@ -11,7 +10,7 @@ const meta = {
     },
     argTypes: {},
     args: {
-        name: 'Acrool React Block',
+        name: 'Acrool React Flip Countdown',
         repositoryUrl: 'https://github.com/acrool/acrool-react-flip-countdown',
     },
 } satisfies Meta<typeof Banner>;

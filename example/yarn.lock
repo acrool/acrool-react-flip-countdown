@@ -18,13 +18,6 @@
   resolved "https://registry.yarnpkg.com/@acrool/react-grid/-/react-grid-5.2.5.tgz#672bc9f623b426dec244e31a04d37b7c9446eb59"
   integrity sha512-FLxeGdDsQDC7yqEngJ2ajXD/aSC/Z8aN0+HxZeCMgPVAhhK8GeV4/QQIc3C5Uh0MFqrC3rg6blgLNjoAQUBRuw==
 
-"@acrool/react-portal@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@acrool/react-portal/-/react-portal-1.0.3.tgz#8c717393b6b92bfa7e9a97574034b565a92fe4d0"
-  integrity sha512-y2/ooRSOza0mCnFrv69Zac/jTOJSzV5DMrdIkoi6DzeRlfHM8ryAVikhtwAoMQTfquMs7Us3NNqLrCzSncYYeQ==
-  dependencies:
-    clsx "^2.1.1"
-
 "@adobe/css-tools@^4.3.2":
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@adobe/css-tools/-/css-tools-4.4.0.tgz#728c484f4e10df03d5a3acd0d8adcbbebff8ad63"
