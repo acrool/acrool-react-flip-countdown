@@ -5,7 +5,7 @@ import { themes } from '@storybook/theming';
 
 import '@acrool/react-grid/dist/index.css';
 import {GridThemeProvider} from "@acrool/react-grid";
-import React, {createElement} from "react";
+import React from "react";
 
 
 const preview: Preview = {

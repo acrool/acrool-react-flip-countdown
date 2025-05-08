@@ -19,6 +19,7 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "browser": "./dist/acrool-react-flip-countdown.es.js",
       "import": "./dist/acrool-react-flip-countdown.es.js"
     },
@@ -51,7 +52,9 @@
     "react-dom": "^18.x"
   },
   "dependencies": {
-    "clsx": "^2.1.1"
+    "@acrool/js-utils": "^3.2.20-alpha.2",
+    "clsx": "^2.1.1",
+    "dayjs": "^1.11.13"
   },
   "devDependencies": {
     "@types/jest": "^29.5.0",

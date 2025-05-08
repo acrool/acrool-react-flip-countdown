@@ -1,0 +1,14 @@
+.root {
+  display: flex;
+}
+
+.container {
+  display: block;
+  position: relative;
+  perspective-origin: 50% 50%;
+  perspective: 300px;
+  background-color: #333;
+  border-radius: 3px;
+  box-shadow: 0 10px 10px -10px grey;
+  margin: 0 5px;
+}
