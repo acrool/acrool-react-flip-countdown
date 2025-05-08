@@ -35,12 +35,11 @@ export default defineConfig({
         },
         cssTarget: 'chrome61',
         rollupOptions: {
-            external: ['react', 'react-dom', 'framer-motion'],
+            external: ['react', 'react-dom'],
             output: {
                 globals: {
                     react: 'React',
                     'react-dom': 'ReactDOM',
-                    'framer-motion': 'framerMotion',
                 },
             },
         },
