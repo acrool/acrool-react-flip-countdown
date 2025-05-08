@@ -16,7 +16,7 @@ const useFlipClockCountDownTimer = () => {
     const [minutes, setMinutes] = useState({digit: 0, flip: false, isPause: true});
     const [seconds, setSeconds] = useState({digit: 0, flip: false, isPause: true});
 
-    const timerRef = useRef<ReturnType<typeof setInterval>>();
+    const timerRef = useRef<ReturnType<typeof setInterval>>(null);
 
     //卸載時清除計時器
     useEffect(()=> {
