@@ -20,7 +20,6 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "browser": "./dist/acrool-react-flip-countdown.es.js",
       "import": "./dist/acrool-react-flip-countdown.es.js"
     },
     "./dist/index.css": "./dist/react-flip-countdown.css"
@@ -48,11 +47,11 @@
     "release:alpha": "standard-version --prerelease alpha"
   },
   "peerDependencies": {
-    "react": "^18.x",
-    "react-dom": "^18.x"
+    "react": ">=19.0.0 <20.0.0",
+    "react-dom": ">=19.0.0 <20.0.0"
   },
   "dependencies": {
-    "@acrool/js-utils": "^3.2.20",
+    "@acrool/js-utils": "^3.2.25",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.13"
   },
